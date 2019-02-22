@@ -13,5 +13,5 @@ module.exports = function getLoveTrianglesCount(preferences) {
       }
     }
   }
-  return triangles/6;
+  return Math.round(triangles/6);
 };
